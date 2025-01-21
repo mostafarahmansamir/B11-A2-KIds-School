@@ -1,3 +1,4 @@
+/* header */
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -26,24 +27,68 @@ ul > li {
 
   text-align: center;
   border-radius: 12px;
-  background: rgb(254, 163, 1);
+  background: rgb(250, 159, 2);
 }
 .home {
   font-size: 24px;
-  color: rgb(254, 163, 1);
+  color: rgb(253, 161, 2);
 }
 .about {
   font-size: 24px;
-  color: rgb(28, 81, 227);
+  color: rgb(27, 80, 224);
 }
 .fasility {
   font-size: 24px;
-  color: rgb(141, 23, 145);
+  color: rgb(142, 23, 147);
 }
 .admision {
   font-size: 24px;
-  color: rgb(106, 137, 3);
+  color: rgb(109, 142, 4);
 }
 .three-line {
   display: none;
 }
+/* main-section */
+.banner-container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width:1024px;
+      margin: 0 auto;
+  }
+  .banner-left{
+      max-width:50%;
+  }
+  .banner-left h1{
+      width:55%;
+      font-size:32px;
+  
+  }
+  .banner-left p{
+     color: rgb(14, 14, 14);
+  }
+  .empowering{
+      color: rgb(248, 158, 3);
+  }
+  .em-last{
+      color: rgb(7, 161, 226);
+  }
+  .banner-right{
+      max-width: 38%;
+      font-size: 24px;
+      margin: 0 auto;
+  }
+  .enroll{
+      background-color:black;
+      color: rgb(255, 255, 255);
+      width: 150px;
+      font-size: 20px;
+      padding: 5px;
+      display: block;
+      color: aliceblue;
+    
+      text-align: center;
+      border-radius: 12px;
+     
+  }
+  
