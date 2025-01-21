@@ -1,0 +1,49 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.nav-left {
+  display: flex;
+  gap: 11px;
+}
+ul > li {
+  list-style: none;
+}
+.nav-center ul {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+.nav-right {
+  width: 150px;
+  font-size: 24px;
+  padding: 5px;
+  display: block;
+  color: aliceblue;
+
+  text-align: center;
+  border-radius: 12px;
+  background: rgb(254, 163, 1);
+}
+.home {
+  font-size: 24px;
+  color: rgb(254, 163, 1);
+}
+.about {
+  font-size: 24px;
+  color: rgb(28, 81, 227);
+}
+.fasility {
+  font-size: 24px;
+  color: rgb(141, 23, 145);
+}
+.admision {
+  font-size: 24px;
+  color: rgb(106, 137, 3);
+}
+.three-line {
+  display: none;
+}
