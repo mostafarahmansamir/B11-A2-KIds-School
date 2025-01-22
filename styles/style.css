@@ -74,7 +74,7 @@ ul > li {
 }
 .banner-right {
   max-width: 38%;
-  font-size: 24px;
+  font-size: 28px;
   margin: 0 auto;
 }
 .enroll {
@@ -89,24 +89,30 @@ ul > li {
   text-align: center;
   border-radius: 12px;
 }
-
+/* body{
+  margin: 10px auto;
+} */
 .body-container {
-  max-width: 1024px;
+  max-width:1022px;
 
   margin: 0 auto;
+ 
   background: url("./assets/bg.png"),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
 }
 .curriculum {
   text-align: center;
   margin: 50px;
+
 }
 .card-container {
+  
   display: flex;
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
+ 
 }
 .card-1 {
   box-sizing: border-box;
@@ -123,7 +129,7 @@ ul > li {
 }
 .card-2 {
   box-sizing: border-box;
-  border: 0.94px solid rgb(255, 244, 220);
+  border: 0.90px solid rgb(255, 244, 220);
   border-radius: 18.86px;
 
   box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
@@ -148,18 +154,19 @@ ul > li {
     rgb(255, 255, 255);
 }
 
-.more-read {
-  color: blue;
+.more-read1 {
+  color: rgb(15, 184, 159);
 }
 .more-read2 {
-  color: rgb(233, 99, 16);
+  color: rgb(241, 110, 29);
 }
-.more-read1 {
-  color: rgb(228, 5, 5);
+.more-read3 {
+  color: rgb(21, 21, 237);
 }
 .arrow-2 {
   display: flex;
   justify-content: center;
+  
 }
 .arrow {
   rotate: 180deg;
@@ -185,7 +192,7 @@ ul > li {
   border-radius: 10px;
   box-shadow: 20px;
   background-color: aliceblue;
-  height: 480px;
+ 
 }
 .story-left h1,
 p {
@@ -214,33 +221,33 @@ p {
   border-radius: 20px;
 }
 .green-date {
-  background-color: rgb(127, 198, 46);
+  background-color: rgb(133, 206, 49);
   width: 160px;
   color: aliceblue;
-  padding: 4px;
+  padding: 5px;
   border-radius: 20px;
   position: relative;
   bottom: 100px;
   left: 50px;
 }
 .green-date1 {
-  background-color: rgb(64, 174, 204);
+  background-color: rgb(67, 182, 213);
   width: 160px;
   color: aliceblue;
-  padding: 4px;
+  padding: 5px;
   border-radius: 20px;
   position: relative;
   bottom: 270px;
   left: 50px;
 }
 .blue1 {
-  background-color: rgb(58, 58, 207);
-  width: 120px;
+  background-color: rgb(74, 74, 229);
+  width: 160px;
   color: aliceblue;
-  padding: 4px;
-  border-radius: 20px;
+  padding: 5px;
+  border-radius: 21px;
   position: relative;
-  bottom: 100px;
+  bottom:100px;
   left: 50px;
 }
 .all-view {
@@ -254,8 +261,8 @@ p {
   justify-content: center;
   align-items: center;
 
-  gap: 100px;
-  background-color: blue;
+   gap:70px; 
+  background-color: rgb(73, 166, 248);
   color: white;
 }
 .border {
@@ -267,6 +274,7 @@ p {
 .footer-right {
   max-width: 35%;
 }
+
 .footer-center {
   max-width: 30%;
 }
@@ -276,10 +284,11 @@ p {
 }
 .li {
   font-size: 24px;
-  margin-left: -30px;
+  margin-left: -40px;
 }
 .foot-img {
   display: flex;
+  
 }
 @media screen and (max-width: 800px) {header{
   border:5px solid rgb(206, 215, 35);
@@ -296,9 +305,80 @@ p {
  
 }
 .banner-right{max-width: 100%;}
+.banner-left h1{width: 80%;
+text-align: center;}
+.banner-left p{width: 97%;
 
-.card-container{display: block;
+text-align: center;
 }
-footer{display: block;}
+.enroll{
+  margin-left: 70px;
+}
+.card-container{
+  flex-direction: column;
+  padding: 12px ;
+}
+
+.arrow-2{
+  display: none;
+}
+
+
+.story-left{display: none;
+
+}
+.story1{
+  width: 250px;
+}
+
+.green-date{
+
+  width: 140px;
+  bottom: 120px;
+  left: 20px;
+}
+.blue1{
+  
+  width: 140px;
+  bottom: 120px;
+  left: 20px;
+}
+.all-view{
+  margin-left: 235px;
+}
+
+.footer-container{
+   max-width: 100%; 
+  display: flex;
+  flex-direction: column;
+  
+
  
+   
+}
+
+
+.footer-right{
+  max-width: 100%;
+ 
+}
+.footer-center{
+  max-width: 100%;
+
+  margin-left: -440px;
+
+
+}
+.footer-left{
+  max-width: 100%;
+  margin-left: -390px;
+
+ 
+} 
+
+
+.border{
+  display: block;
+}
+
 }
