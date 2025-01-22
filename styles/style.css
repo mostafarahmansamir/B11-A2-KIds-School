@@ -93,8 +93,6 @@ ul > li {
   margin: 10px auto;
 } */
 .body-container {
-  
-
   margin: 0 auto;
 
   background: url("./assets/bg.png"),
@@ -103,7 +101,7 @@ ul > li {
 .curriculum {
   max-width: 1024px;
   text-align: center;
-  margin:0 auto;
+  margin: 0 auto;
 }
 .card-container {
   display: flex;
@@ -163,15 +161,13 @@ ul > li {
   color: rgb(21, 21, 237);
 }
 
-.arrow{
+.arrow {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
 }
-.arrow-1{
+.arrow-1 {
   rotate: 180deg;
-    
 }
 .story {
   text-align: center;
@@ -257,14 +253,15 @@ p {
   margin: 50px auto;
   padding: 5px;
 }
+
 .footer-container {
+  
   max-width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  
 
-  gap: 70px;
+ 
   background-color: rgb(73, 166, 248);
   color: white;
 }
@@ -273,6 +270,7 @@ p {
   font-weight: 700;
   font-size: xx-large;
 }
+
 
 .footer-right {
   max-width: 35%;
@@ -291,9 +289,10 @@ p {
 }
 .foot-img {
   display: flex;
- 
 }
-@media screen and (max-width: 800px) {
+footer,main{margin-bottom:-49px;}
+
+@media screen and (max-width: 576px) {
   header {
     border: 5px solid rgb(206, 215, 35);
     border-radius: 8px;
@@ -363,25 +362,19 @@ p {
 
   .footer-right {
     max-width: 90%;
+
+    margin-left: -20px;
    
-    
-    margin-left:-30px;
-    margin-bottom: -90px;
   }
   .footer-center {
     max-width: 100%;
+    margin-bottom: 80px;
 
-  margin-left: -440px;
-  margin-left: -440px;
-
-
-    margin-left: -440px;
-
-
+    margin-left: -360px;
   }
   .footer-left {
     max-width: 100%;
-    margin-left: -390px;
+    margin-left: -330px;
   }
 
   .border {
